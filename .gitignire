@@ -1,0 +1,14 @@
+# Terraform state files & secrets
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+*.tfvars.json
+
+# Bicep parameters & credentials
+*.parameters.json
+
+# OS / Editor junk
+.DS_Store
+.vscode/
+.idea/
