@@ -3,3 +3,20 @@
 *.tfstate.*
 crash.log
 *.tfvars
+# Terraform state files & secrets
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+*.tfvars.json
+
+
+$env:ARM_SUBSCRIPTION_ID = (az account show --query id -o tsv)
+
+# Bicep parameters & credentials
+*.parameters.json
+
+# OS / Editor junk
+.DS_Store
+.vscode/
+.idea/

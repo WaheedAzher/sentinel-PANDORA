@@ -1,0 +1,3 @@
+# Copy to terraform.tfvars (git-ignored) and adjust.
+vm_size         = "Standard_B2ats_v2"
+deploy_test_vms = true
